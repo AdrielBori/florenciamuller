@@ -242,13 +242,13 @@ span{
 }
 .skill{
     width: 100%;
-    height: 350px;
+    height: 400px;
     background-image: url("analysis.webp");
     background-size: cover;
     justify-content: center;
     align-items: center;
-    
  }
+ 
  .d_skill{
     width: 90%;
     height: 75%;
