@@ -233,7 +233,7 @@ footer{
 }
 .redes div a img:hover{
     
-    filter: invert(20%) sepia(89%) saturate(3000%) hue-rotate(180deg) brightness(60%) contrast(70%);
+filter: invert(4%) sepia(9%) saturate(50%) hue-rotate(343deg) brightness(80%) contrast(82%);
 }
 
 span{
@@ -271,6 +271,10 @@ span{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-size: 18px;
+ }
+ .cajaskill:hover{
+     color: #2b4981;
  }
  .fonC{
     background-color: rgba(67, 111, 145, 0.9);
@@ -289,4 +293,16 @@ footer .redes{
     border-bottom:#ffffff solid 2px;
     margin: 5px 35%;
     font-family:'Ubuntu', sans-serif;
+}
+@media screen and (min-width: 650px) and (max-width: 1920px) {
+    .secx{
+        flex-direction: row;
+    };
+    .secx article{
+        width: 50%;
+    }
+    .secx aside{
+        border-top: #c7c7c7 solid 1px;
+    }
+    
 }
